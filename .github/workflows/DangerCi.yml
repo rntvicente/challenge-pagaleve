@@ -13,7 +13,7 @@ jobs:
           node-version: 18.x
       - name: Npm install
         run: npm install
-      - name: Danger
-        run: npm run danger ci
+      - name: Run Danger
+        run: npm run danger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
