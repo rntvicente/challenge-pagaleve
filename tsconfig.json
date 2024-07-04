@@ -24,7 +24,8 @@
     "jest.config.ts",
     "jest-unit-config.ts",
     "jest-mongodb-config.ts",
-    "jest-integration-config.ts"
+    "jest-integration-config.ts",
+    "dangerfile.ts"
   ],
   "exclude": ["node_modules", "test", "jest*.ts"]
 }
